@@ -29,3 +29,25 @@ pair<long long, long long> getMinMax(long long a[], int n) {
         
     }
 }
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+public:
+    string reverseWord(string str)
+    {
+    //   string temp="";
+    //   int n=str.length();
+    //   for(int i=n;i>=0;i--)
+    //   {
+    //       temp=temp+str[i];
+    //   }
+       
+    //   return temp;
+    
+    std::reverse(str.begin(), str.end());
+     return str;
+     
+    
+    }
